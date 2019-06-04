@@ -1,0 +1,70 @@
+#header-bg-img {
+  background-image: url("../img/bartender.jpg");
+}
+
+section {
+  height: 200%;
+}
+
+p {
+  margin-top: 3em;
+}
+
+span {
+  color: #e00000
+}
+
+form {
+  margin: 0 auto;
+  width: 100%;
+}
+
+label, input[type="text"] {
+  display: block;
+  margin: 0 auto;
+}
+
+label, select {
+  color: #aaa;
+  margin-bottom: .5em;
+}
+
+fieldset {
+  color: #fff;
+}
+
+input[type="text"], select, textarea, #submit-button {
+  margin: 0 auto 1.5em;
+  border-radius: .25em;
+  width: 15em;
+  text-align: center;
+}
+
+input[type="text"], select, #submit-button {
+  height: 2.5em;
+}
+
+textarea {
+  height: 10em;
+  padding: 1em;
+}
+
+fieldset {
+  margin: 0 auto .75em;
+  text-align: left;
+  line-height: 2;
+}
+
+input[type="checkbox"] {
+  margin-right: .75em;
+}
+
+#submit-button {
+  margin-top: 1em;
+}
+
+#submit-button:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}

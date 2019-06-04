@@ -1,0 +1,146 @@
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+  font-family: merriweather-bold;
+  src: url("../fonts/Merriweather-Bold.ttf");
+}
+
+@font-face {
+  font-family: raleway;
+  src: url("../fonts/Raleway-Regular.ttf");
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #000;
+  text-align: center;
+}
+
+header, section, nav {
+  width: 100%;
+}
+
+header, section {
+  height: 100%;
+}
+
+header, div {
+  background-size: cover;
+}
+
+section {
+  text-align: center;
+}
+
+h1, h2 {
+  display: block;
+  font-family: montserrat;
+  margin: 2.5em;
+}
+
+h1, h2, p, label {
+  color: #fff;
+}
+
+p, label, li, input[type="text"], fieldset {
+  font-family: raleway;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 1em;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+li:last-child {
+  margin-bottom: 0;
+}
+
+.preview {
+  border: .1em solid #fff;
+  margin: auto;
+  max-width: 600px;
+  max-height: 400px;
+}
+
+.merriweather-bold {
+  font-family: merriweather-bold;
+}
+
+/* parallax scrolling effect */
+.parallax {
+  background-attachment: fixed;
+}
+
+/*navbar properties */
+.navbar {
+  width: auto;
+  float: right;
+  margin-left: 30vw;
+}
+
+.navbar a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-family: raleway;
+  margin: 0 1.5em;
+  padding-top: 1.5em;
+}
+
+/* animated bottom borders on hover */
+.navbar a::after, .navbar .active::after {
+  margin-top: 1em;
+  content: "";
+  display: block;
+  width: 100%;
+  height: .1em;
+  background-color: #fff;
+  transition: width .35s;
+}
+
+.navbar a::after {
+  width: 0;
+}
+
+.navbar a:hover::after {
+  width: 100%;
+  transition: width .35s;
+}
+
+.navbar .active {
+  opacity: .6;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* align content vertically & horizontally */
+.align-xy {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-content:center;
+  flex-direction:column;
+}
+
+.under {
+  margin-top: 1em;
+}

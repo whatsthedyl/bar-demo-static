@@ -1,0 +1,19 @@
+#header-bg-img {
+  background-image: url("../img/cover-band.jpg");
+}
+
+article {
+  width: 50%;
+  height: 200%;
+  margin: 0 auto;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.5em;
+  text-align: left;
+}
+
+p + p {
+  margin-top: 3em;
+}

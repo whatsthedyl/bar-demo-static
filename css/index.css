@@ -1,0 +1,81 @@
+body {
+  background-color: #000;
+}
+
+/* parallax scrolling effect */
+header {
+  background-image: url("../img/full-bar.jpg");
+}
+
+section {
+  height: 130%;
+  color: #fff;
+  font-size: 2.5em;
+}
+
+section p + p {
+  margin-top: 1em;
+}
+
+.brand-block {
+  /* align both divs to left */
+  clear: both;
+  float: left;
+
+  line-height: 100%;
+  font-family: merriweather-bold;
+  width: auto;
+  height: auto;
+  background-color: rgba(0, 0, 0, .75);
+  padding: .25em;
+  font-size: 3em;
+  margin: 2em 0 0 2em;
+  opacity: 1;
+  color: #fff;
+}
+
+.brand-block + .brand-block {
+  margin-top: 0em;
+}
+
+nav {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+}
+
+a div {
+  overflow: hidden;
+  height: 50%;
+  width: 50%;
+  font-family: montserrat;
+  color: #fff;
+  font-size: 2em;
+  opacity: .35;
+}
+
+#address {
+  margin-top: 4em;
+  font-size: .5em;
+  line-height: 150%;
+}
+
+a :hover {
+  opacity: 1;
+}
+
+#top-left {
+  background-image: url("../img/burger-chips.jpg");
+}
+
+#top-right {
+  background-image: url("../img/ybr-stage.jpg");
+}
+
+#bot-left {
+  background-image: url("../img/cover-band.jpg");
+}
+
+#bot-right {
+  background-image: url("../img/bartender.jpg");
+}
